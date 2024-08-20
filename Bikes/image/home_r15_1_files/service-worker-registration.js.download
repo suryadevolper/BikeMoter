@@ -1,0 +1,83 @@
+const CURRENT_VERSION = "2.0";
+const DOMAIN = "https://www.bajajmall.in";
+const VERSION_KEY = "V_EMALL";
+const CURRENT_SW_FILE = "/sw.js";
+const SW_SCOPE = "/";
+
+try {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            if (registrations["length"] == 0) {
+                registerServiceWorker();
+            } else {
+                var registered = false;
+                for (var i = 0; i < registrations.length; i++) {
+                    let registration = registrations[i];
+                    let scriptURL = registration.active.scriptURL;
+                    let scope = registration.scope;
+                    let version = localStorage.getItem(VERSION_KEY);
+                    if (scriptURL) {
+                        if (version != CURRENT_VERSION) {
+                            registration.unregister().then(() => {
+                                registerServiceWorker();
+                                localStorage.setItem(VERSION_KEY, CURRENT_VERSION);
+                            });
+                        } else {
+                            registerServiceWorker();
+                        }
+                    } else {
+                        registerServiceWorker();
+                    }
+                }
+            }
+        });
+    }
+} catch (e) {
+    console.log("Error to Unregister Service Worker !");
+}
+
+function registerServiceWorker() {
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+            .register(CURRENT_SW_FILE, {
+                scope: SW_SCOPE
+            })
+            .then(function(reg) {
+                localStorage.setItem(VERSION_KEY, CURRENT_VERSION);
+                reg.update();
+                var deferredPrompt;
+                const addBtn = document.querySelector("button");
+
+                window.addEventListener("beforeinstallprompt", (e) => {
+                    deferredPrompt = e;
+                    if (addBtn) {
+                        addBtn.addEventListener("click", (e) => {
+                            addBtn.style.display = "none";
+                            deferredPrompt.prompt();
+                            deferredPrompt.userChoice.then((choiceResult) => {
+                                if (dataLayer && dataLayer.push) {
+                                    dataLayer.push({
+                                        event: "Add_to_Home_Screen_Popup",
+                                        eventCategory: "Add_to_Home_Screen_Popup_Click",
+                                        eventAction: "Mid Screen",
+                                        eventLabel: choiceResult.outcome,
+                                    });
+                                } else {
+                                    console.warn("dataLayer not found!");
+                                }
+
+                                console.log("User dismissed the A2HS prompt");
+
+                                deferredPrompt = null;
+                            });
+                        });
+                    } else {
+                        console.warn("addBtn not found!");
+                    }
+                });
+            })
+            .catch(function(e) {
+                console.error("Error during service worker registration:", e);
+            });
+    }
+}

@@ -1,0 +1,99 @@
+.emistore-cls{color:red}
+.mattress-cic-options a{color:unset}
+.mattress-cic-options{padding-bottom:24px;margin-bottom:24px;border-bottom:1px solid rgba(8,8,8,0.1)}
+.mattress-size-wrapper{width:41%;margin-bottom:8px}
+.mattress-heading{display:flex;margin-bottom:12px}
+.size-icon-head{width:22px;height:22px;margin-right:5px;display:block}
+.img-contain100{width:100%;height:100%;object-fit:contain}
+.size-heading{font-size:14px;font-weight:bold;text-align:left;color:#070707;line-height:normal;letter-spacing:normal}
+.mattress-ul{display:flex;flex-flow:row wrap}
+.mattress-li{border-radius:3px;border:solid 1px #ebebeb;background-color:#fff;padding:13px;font-size:12px;font-weight:600;line-height:1.25;text-align:center;color:#070707;margin-right:16px;margin-bottom:16px}
+.mattress-li:hover{box-shadow:0 0 9px 0 rgba(251,155,39,0.16);border:solid 1px #fb9b27;background-color:rgba(251,155,39,0.16)}
+.mattress-li.out-of-stock-size:hover{box-shadow:0 0 9px 0 rgba(251,155,39,0.16);border:dashed 1px #fb9b27;background-color:rgba(251,155,39,0.16);cursor:no-drop}
+.out-of-stock-size{background:#fff;border:dashed 1px #ebebeb}
+.out-of-stock-size a{opacity:.3;cursor:no-drop}
+.mattress-li.active{box-shadow:0 0 9px 0 rgba(251,155,39,0.16);border:solid 1px #fb9b27;background-color:rgba(251,155,39,0.16)}
+.mattress-height-ul{display:flex;flex-flow:row wrap}
+.mattress-height-li{border-radius:3px;border:solid 1px #ebebeb;background-color:#fff;padding:13px;font-size:12px;font-weight:600;line-height:1.25;text-align:center;color:#070707;margin-right:16px;margin-bottom:16px}
+.mattress-height-li:hover{box-shadow:0 0 9px 0 rgb(251 155 39 / 16%);background-color:#fff9f3;border:solid 1px #fb9b27}
+.mattress-height-li.height-out-of-stock-size:hover{box-shadow:0 0 9px 0 rgb(251 155 39 / 16%);background-color:#fff9f3;border:dashed 1px #fb9b27;cursor:no-drop}
+.mattress-height-li.height-out-of-stock-size{box-shadow:0 0 9px 0 rgb(251 155 39 / 16%);background-color:#fff9f3;border:dashed 1px #fb9b27;cursor:no-drop}
+.height-out-of-stock-size a{opacity:.3}
+.mattress-height-li.active{box-shadow:0 0 9px 0 rgba(251,155,39,0.16);border:solid 1px #fb9b27;background-color:rgba(251,155,39,0.16)}
+.mattress-height-li.height-out-of-stock-size.active{box-shadow:0 0 9px 0 rgb(251 155 39 / 16%);background-color:#fff9f3;border:dashed 1px #fb9b27}
+.mattress-height-wrapper{width:100%;margin-bottom:8px}
+.mattress-height-heading{display:flex;margin-bottom:18px}
+.mattress-dimension-wrapper{margin-bottom:8px}
+.mattress-dimension-heading{display:flex;margin-bottom:12px}
+.mattress-dropdwon-div{position:relative}
+.mattress-selected{width:343px;padding:13px 16px;border:1px solid #ebebeb;display:flex;justify-content:space-between;border-radius:4px;box-shadow:0 2px 10px 0 rgba(251,155,39,0.06)}
+.dropdwon-text{font-size:12px;font-weight:600;line-height:1.25;text-align:left;color:#070707;border:0}
+.arrow-div{width:24px;height:15px}
+.arrow{border:solid black;border-width:0 1px 1px 0;display:inline-block;padding:4px;margin-left:9px;margin-bottom:4px;transform:rotate(45deg);-webkit-transform:rotate(45deg)}
+.arrow-up{transform:rotate(-135deg);-webkit-transform:rotate(-135deg);margin-top:5px}
+.mattress-option-menu{width:343px;padding:8px;border-radius:4px;box-shadow:0 2px 14px 0 rgb(0 55 95 / 8%);border:solid 1px #ebebeb;background-color:#fff;margin-top:6px;z-index:1;position:absolute;max-height:223px;overflow:hidden;overflow-y:scroll}
+.Option-menu{padding:13px 16px;border-radius:4px;background-color:#fff}
+.option-menu-text{font-size:12px;font-weight:600;line-height:1.25;text-align:left;color:#070707}
+.border-orange{border:1px solid #fb9b27}
+.outof-stock-optionmenu{opacity:.3;background-color:#fff}
+.out-of-stock-prod-color.dim-sel{opacity:.3;background-color:#fff}
+@media only screen and (max-width:767px){.mattress-cic-options{padding-bottom:16px;margin-bottom:16px}
+.mattress-size-wrapper{width:100%;margin-bottom:8px}
+.mattress-height-wrapper{width:100%;margin-bottom:11px}
+.mattress-dimension-wrapper{margin-bottom:8px}
+.mattress-selected{width:100%}
+.mattress-option-menu{width:100%}
+}
+@media only screen and (min-width:768px) and (max-width:991px){.mattress-size-wrapper{width:50%}
+.mattress-height-wrapper{width:50%}
+}
+@media only screen and (min-width:992px) and (max-width:1200px){.mattress-size-wrapper{width:70%}
+.mattress-height-wrapper{width:70%}
+}
+.mobile-color-varient-option .prod-storage-li a{color:unset;width:max-content;display:block;height:100%}
+.mobile-color-varient-option .prod-color-li a{color:unset;display:block;height:100%}
+.mobile-color-varient-option{padding-bottom:24px;margin-bottom:24px;border-bottom:1px solid rgba(8,8,8,0.1)}
+.mobile-header-container{display:flex}
+.mobile-header-container img{width:16px;height:16px}
+.header-color{font-size:12px;font-weight:bold;letter-spacing:.06px;text-align:left;color:#070707;line-height:normal;margin-left:10px}
+.storage-color-varient-container{margin-top:16px}
+.prod-storage-text{font-size:12px;color:#070707;text-align:left}
+.prod-storage-gb-text{font-size:12px;color:#070707;font-weight:bold;text-align:left}
+.prod-storage-ul{margin-top:8px;display:flex;width:max-content;overflow-x:scroll;max-width:100%;margin-right:-7px}
+.prod-storage-ul::-webkit-scrollbar{display:none}
+.prod-storage-li{padding:13px 12px;border-radius:4px;border:solid 1px #ebebeb;background-color:#fff;margin-right:8px;font-size:12px;font-weight:600;line-height:1.25;text-align:center;width:max-content;color:#070707;width:max-content}
+.prod-storage-li.active{box-shadow:0 0 9px 0 rgba(251,155,39,0.16);border:solid 1px #fb9b27;background-color:rgba(251,155,39,0.16)}
+.prod-storage-li:hover{box-shadow:0 0 9px 0 rgb(251 155 39 / 16%);background-color:#fff9f3;border:solid 1px #fb9b27}
+.prod-storage-li.out-of-stock-prod{background:#fff;border:dashed 1px #ebebeb}
+.prod-storage-li.out-of-stock-prod a{opacity:.3;cursor:no-drop;color:#070707}
+.prod-color-container{margin-top:24px}
+.prod-color-ul{margin-top:8px;display:flex;overflow:scroll}
+.prod-color-ul::-webkit-scrollbar{display:none}
+.prod-color-li{padding:11px 12px;width:65px;height:65px;border-radius:3px;border:solid .4px #c8c8c8;background-color:#fff;margin-right:9px}
+.prod-color-li img{width:100%;height:100%;object-fit:contain}
+.prod-color-li:hover{box-shadow:0 0 9px 0 rgb(251 155 39 / 16%);background-color:#fff9f3;border:solid 1px #fb9b27}
+.prod-color-li.active{box-shadow:0 0 9px 0 rgba(251,155,39,0.16);border:solid 1px #fb9b27}
+.prod-color-ul .out-of-stock-prod-color.active img{filter:grayscale(100%)}
+.prod-color-ul .out-of-stock-prod-color img{filter:grayscale(100%)}
+.prod-color-li.out-of-stock-prod-color{background:#fff;border:dashed 1px #ebebeb}
+.prod-color-li.out-of-stock-prod-color:hover{box-shadow:0 0 9px 0 rgb(251 155 39 / 16%);background-color:#fff9f3;border:dashed 1px #fb9b27}
+.prod-color-li.out-of-stock-prod-color.active{box-shadow:0 0 9px 0 rgb(251 155 39 / 16%);background-color:#fff9f3;border:dashed 1px #fb9b27}
+.storage-color-varient-container .prod-storage-container .prod-storage-ul .out-of-stock-prod:hover{box-shadow:0 0 9px 0 rgb(251 155 39 / 16%);background-color:#fff9f3;border:dashed 1px #fb9b27}
+.storage-color-varient-container .prod-storage-container .prod-storage-ul .out-of-stock-prod.active{box-shadow:0 0 9px 0 rgb(251 155 39 / 16%);background-color:#fff9f3;border:dashed 1px #fb9b27}
+.prod-color-li.out-of-stock-prod-color a{cursor:no-drop;color:#070707}
+.prod-color-li.out-of-stock-prod-color:hover .tooltiptext{display:block}
+.tooltip{position:relative}
+.tooltiptext{display:none;position:absolute;width:280px;background-color:rgba(0,0,0,0.9);color:#fff;text-align:center;padding:12px 16px;border-radius:4px;z-index:1;transition:opacity .6s;font-size:13px;line-height:1.38;letter-spacing:.21px;text-align:left;color:#fff}
+.tooltip-bottom{top:127%;left:-6%}
+.tooltip-bottom::after{content:"";position:absolute;bottom:100%;left:10%;margin-left:-5px;border-width:7px;border-style:solid;border-color:transparent transparent rgba(0,0,0,0.9) transparent}
+.prod-color-gb-text{font-size:12px;color:#070707;font-weight:bold;text-align:left}
+.storage-image-text{display:flex;align-items:center}
+.storage-image-text img{width:16px;height:16px}
+.color-image-text{display:flex;align-items:center}
+.color-image-text img{width:16px;height:16px}
+@media only screen and (max-width:767px){.mobile-color-varient-option{padding-bottom:16px;margin-bottom:16px;margin-right:-22px}
+.prod-color-li{padding:4px;min-width:144px;min-height:90px}
+.prod-storage-ul{margin-top:8px;display:flex;width:max-content;overflow-x:scroll;max-width:340px;margin-right:-7px}
+}
+.mattress-option-menu::-webkit-scrollbar{display:none}
+.mattress-li.dash-out-of-stock{border:dashed 1px #fb9b27}

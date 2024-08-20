@@ -1,0 +1,8 @@
+.prod-descrp-flex{display:flex;align-items:center}
+.decrp-txt{font-size:12px;font-weight:bold;display:block;color:#070707;margin-left:8px;text-transform:uppercase}
+.decrp-main-img{width:16px;height:16px;object-fit:contain}
+.decrp-con-txt{padding:16px 0 16px 0}
+.prod-descrp-txt{font-size:11px;line-height:1.64;letter-spacing:normal;text-align:left;color:#000}
+.prod-descrp-main{position:relative}
+.viewall-txt{cursor:pointer;font-size:12px;text-align:right;color:#0074c9;text-decoration:underline}
+.viewall-main{position:absolute;right:0}

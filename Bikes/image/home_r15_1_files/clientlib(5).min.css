@@ -1,0 +1,18 @@
+.how-to-buy-wrap-div{border:1px solid#ededed;border-radius:8px;padding:16px 12px;display:flex;justify-content:space-between;margin-bottom:0}
+.how-to-buy-wrap-div span:first-child{font-size:14px;font-weight:700;line-height:18px;letter-spacing:.20000000298023224px;color:#1a1004}
+.how-to-buy-wrap-div span:last-child{font-size:12px;font-weight:700;line-height:16px;letter-spacing:.20000000298023224px;color:#0074c9;cursor:pointer}
+.howto-buy-popup-wrap{background:rgb(0 0 0 / 50%);position:fixed;z-index:999;height:100%;width:100%;top:0;left:0}
+.howto-pop-body{width:360px;padding:12px 16px 12px 16px;border-radius:8px;background:#fff;position:relative;left:0;right:0;margin:0 auto;top:25%}
+.howto-title-div{margin-bottom:12px}
+.howto-title-div span{font-size:16px;font-weight:700;line-height:20px;letter-spacing:.20000000298023224px;color:#1a1004}
+.processbox-div{padding:8px 12px 8px 16px;border-radius:8px;border:1px solid #ededed;display:flex;gap:8px;margin-bottom:16px;align-items:center;position:relative}
+.processbox-div:last-child{margin-bottom:0}
+.dot-div{position:absolute;border-left:1px dotted grey;height:16px;bottom:-17px;left:40px}
+.dcrp-box-div span:first-child{font-size:12px;font-weight:700;line-height:16px;letter-spacing:.20000000298023224px;color:#1a1004}
+.dcrp-box-div span:last-child{font-size:12px;font-weight:400;line-height:16px;letter-spacing:.20000000298023224px;color:#585653;display:block}
+.how-to-buy-cross{position:absolute;top:-50px;left:0;right:0;margin:0 auto;cursor:pointer}
+.all-process-box{overflow-y:auto;height:338px}
+.light-div{padding:8px 16px;border-radius:8px;display:flex;background:#fff9f3;gap:8px;align-items:center;margin-top:12px}
+@media only screen and (max-width:991px){.light-div{background:#fff5eb}
+.how-to-buy-wrap-div{margin-bottom:16px;padding:12px 8px}
+}

@@ -1,0 +1,8 @@
+.maxcontent{height:200px;overflow:hidden}
+.readmore-w{text-align:right;cursor:pointer;font-weight:500;font-size:12px;line-height:14px;text-align:right;letter-spacing:.2px;color:#0074c9;margin:0 auto;padding:0 20px 20px 0;cursor:pointer}
+.plp-bottm-footer .maxcontent{height:206px}
+.pdp-bottm-footer .maxcontent{height:206px}
+@media(max-width:992px){.maxcontent{height:420px}
+.plp-bottm-footer .maxcontent{height:132px}
+.pdp-bottm-footer .maxcontent{height:132px}
+}

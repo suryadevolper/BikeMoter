@@ -1,0 +1,233 @@
+.emi-bx{padding:0}
+.main-loanpod-div{position:fixed;top:78px;background:white;left:0;right:0}
+.main-loanpod-div .left-arrow-loan-pod-insta-buy{display:none}
+.main-loanpod-wrap-div{display:flex;justify-content:space-between;padding:24px 16px;width:1280px;margin:0 auto;height:100vh}
+.payment-sum-txt{font-weight:700;font-size:16px;line-height:20px;letter-spacing:.2px;color:#1a1004;display:block;margin-bottom:16px}
+.two-wheel-datail-box-div{border:1px solid #e4e4e4;border-radius:4px;padding:16px 16px 14px 16px}
+.two-wheel-datail-box-div{display:flex;width:808px;height:86px}
+.img-box-div{width:52px;height:56px;margin-right:8px}
+.img-box-div img{width:52px;height:56px}
+.product-title-loanpod-txt{font-weight:500;font-size:12px;line-height:16px;letter-spacing:.2px;color:#1a1004;display:block;margin-bottom:2px}
+.on-road-pr-txt{font-weight:500;font-size:12px;line-height:16px;letter-spacing:.2px;color:#989899;display:block;margin-bottom:4px}
+.text-one-price{font-weight:700;font-size:18px;line-height:16px;letter-spacing:.2px;color:#1a1004;margin-bottom:2px}
+.text-two-price{font-weight:400;font-size:12px;line-height:16px;letter-spacing:.2px;text-decoration-line:line-through;color:#989899;margin-bottom:4px;margin-left:2px}
+.text-three-price{font-weight:500;font-size:12px;line-height:16px;letter-spacing:.2px;color:#42be65;margin-left:4px}
+.store-add-txt{font-weight:700;font-size:14px;line-height:18px;letter-spacing:.2px;color:#1a1004;display:block;margin-top:24px;margin-bottom:16px}
+.address-detail-div-loan{border:1px solid #e4e4e4;border-radius:4px;padding:12px 16px;width:808px}
+.bike-title-txt{font-weight:700;font-size:12px;line-height:16px;letter-spacing:.2px;color:#1a1004;display:block;margin-bottom:6px}
+.bike-address-txt{font-weight:400;font-size:12px;line-height:16px;letter-spacing:.2px;color:#1a1004;display:block;margin-bottom:16px;width:40%}
+.contact-txt{font-weight:700;font-size:12px;line-height:16px;letter-spacing:.2px;color:#1a1004;display:block;margin-bottom:8px}
+.cont-number{font-weight:400;font-size:12px;line-height:16px;letter-spacing:.2px;color:#1a1004;opacity:.91}
+.otp-ribbon-div{background:#f7f7f7;padding:9px;text-align:center;margin-top:24px;margin-bottom:16px}
+.otp-ribbon-div span{font-weight:400;font-size:10px;line-height:14px;text-align:center;letter-spacing:.2px;color:#888}
+.t-and-c-div{margin-top:16px;text-align:center}
+.t-and-c-div span{font-weight:400;font-size:12px;line-height:16px;text-align:center;letter-spacing:.2px;color:#989899}
+.t-and-c-div .bajaj-t-n-c{color:#0074c9;font-weight:700}
+.proceed-btn-div-main{text-align:right}
+.proceed-btn-div{background:#fb9b27;border-radius:4px;padding:10px 24px;height:40px;width:200px;text-align:center;margin-top:16px;font-weight:700;font-size:14px;line-height:20px;text-align:center;letter-spacing:.2px;color:#fff;border:0;cursor:pointer}
+.payment-summery-details-div{width:394px;height:469px;border:1px solid #ededed;border-radius:4px;padding:12px 16px}
+.pay-sum-title-txt{font-weight:700;font-size:16px;line-height:20px;letter-spacing:.2px;color:#1a1004;display:block;margin-bottom:8px}
+.total-on-rd-price-main-div{padding:12px 8px;width:362px;height:121px;background:#f0f7fc;border-radius:8px}
+.nam-price-div{display:flex;justify-content:space-between;margin-bottom:8px;align-items:center;position:relative}
+.nam-price-div span{font-weight:400;font-size:12px;line-height:16px;letter-spacing:.2px;color:#585653;display:flex;align-items:center}
+.nam-price-div span img{margin-left:2px;cursor:pointer}
+.on-rd-price-dv{padding-top:8px;border-top:1px solid #e4e4e4;display:flex;justify-content:space-between}
+.on-rd-price-dv span{font-weight:700;font-size:12px;line-height:16px;letter-spacing:.2px;color:#1a1004}
+.upfront-payment-main-div{padding:12px 8px;width:362px;height:169px;background:#f0f7fc;border-radius:8px;margin-top:8px}
+.payable-emi-main-div{padding:12px 8px;width:362px;height:111px;background:#fff;border:1px solid #e4e4e4;border-radius:8px;margin-top:8px}
+.emi-txt-amount-div{display:flex;justify-content:space-between}
+.emi-txt-amount-div span{font-weight:700;font-size:12px;line-height:16px;letter-spacing:.2px;color:#1a1004}
+.roi-txt{font-weight:400;font-size:10px;line-height:16px;letter-spacing:.2px;color:#585653}
+.product-cost-txt-div{display:flex;justify-content:space-between;margin:8px 0}
+.product-cost-txt-div span{font-weight:400;font-size:12px;line-height:16px;letter-spacing:.2px;color:#585653}
+.annualise-roi-div{padding-top:8px;border-top:1px solid #e4e4e4;position:relative}
+.annualise-roi-div span{font-weight:400;font-size:12px;line-height:16px;letter-spacing:.2px;color:#585653;display:flex;align-items:center}
+.annualise-roi-div span img{margin-left:2px;cursor:pointer}
+.loan-pod-checkout-page .left-arrow-loan-pod-checkout-page{display:none}
+.loan-pod-tooltip-new{position:absolute;z-index:1;top:23px;left:25px}
+.loan-pod-tooltip-new::after{content:"";position:absolute;bottom:100%;left:60px;border-width:5px;border-style:solid;border-color:transparent transparent #fff transparent}
+.loan-pod-white-wrap{padding:16px;background-color:#fff;border-radius:8px;width:274px}
+.loan-pod-confirm-disable{opacity:.5;pointer-events:none}
+.p-event{pointer-events:none}
+.got-it-btn-div{display:none}
+.headinng-wrap-div{display:none}
+.cross-icon-div-var-pop{position:absolute;top:-48px;left:0;right:0;text-align:center;cursor:pointer}
+@media screen and (max-width:767px){.loan-pod-tooltip-new{width:100%;height:100%;position:fixed;top:0;left:0;z-index:9;background:#1a100447}
+.loan-pod-white-wrap{display:flex;height:unset;width:100%;justify-content:center;flex-direction:unset;position:absolute;bottom:0;padding:12px 16px;border-radius:8px 8px 0 0;flex-direction:column}
+.headinng-wrap-div{padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #ededed;display:flex;align-items:center}
+.headinng-wrap-div .popup-heading{font-weight:700;font-size:16px;line-height:20px;letter-spacing:.2px;color:#1a1004}
+.got-it-btn-div{text-align:right;margin-top:8px;display:block}
+.nam-price-div span{text-align:left;font-weight:400;font-size:12px;line-height:16px;letter-spacing:.2px;color:#585653}
+.got-it-btn-div button{padding:8px 24px;height:32px;background:#fff;border:1px solid #fb9b27;border-radius:4px;font-weight:700;font-size:12px;line-height:16px;text-align:center;letter-spacing:.2px;color:#fb9b27}
+.headinng-wrap-div img{margin-right:8px}
+.headinng-wrap-div span{font-weight:700;font-size:16px;line-height:20px;letter-spacing:.2px;color:#1a1004}
+.main-loanpod-wrap-div{flex-direction:column;width:unset;padding:0}
+.main-loanpod-div{top:0;overflow-y:scroll;z-index:100;bottom:0}
+.main-loanpod-div .c-stepper__item:before{margin-right:0}
+:root{--circle-size:clamp(1.5rem,5vw,3rem);--spacing:clamp(0.25rem,2vw,0.5rem)}
+.c-stepper{display:flex;justify-content:space-between}
+.c-stepper__item{display:flex;flex-direction:column;width:35%;text-align:center;vertical-align:middle;align-items:center}
+.c-stepper__item:before{--size:3rem;content:"";display:block;width:27px;height:27px;background-image:url("../../../../../../content/dam/emistoremarketplace/index/emi-mall-dam/loan-pod-new-ui/range-gray.svg");background-repeat:no-repeat;background-size:contain;z-index:10;margin-right:20px}
+.c-stepper-item-selected::before{background-image:url("../../../../../../content/dam/emistoremarketplace/index/emi-mall-dam/loan-pod-new-ui/green-tick.svg");background-repeat:no-repeat;background-size:contain;z-index:10}
+.c-stepper__item-unselected::before{background-image:url("../../../../../../content/dam/emistoremarketplace/index/emi-mall-dam/loan-pod-new-ui/blue-dot.svg");background-repeat:no-repeat;background-size:contain;z-index:10}
+.c-stepper__item:last-child::before{margin-top:3px;margin-right:0}
+.c-stepper__item:after{content:"";position:relative;top:calc(var(--circle-size) / 2);width:calc(150% - var(--circle-size) - calc(var(--spacing) * 2));left:calc(33% + calc(var(--circle-size) / 2+var(--spacing)));height:2px;background-color:#e0e0e0;order:-1;top:15px;left:52px}
+.c-stepper__item:last-child:after{height:unset}
+.c-stepper__title{font-weight:500;font-size:12px;line-height:14px;text-align:center;color:#1a1004;width:max-content;margin-top:10px}
+.c-stepper__desc{color:grey;font-size:clamp(0.85rem,2vw,1rem);padding-left:var(--spacing);padding-right:var(--spacing)}
+.two-wheel-datail-box-div{width:unset;border-top:0;border-bottom:8px solid #e8e7e6;padding:16px;height:max-content}
+.address-detail-div-loan{width:unset;padding:16px 12px}
+.payment-summery-details-div{width:unset;border-bottom:0}
+.total-on-rd-price-main-div{width:unset}
+.upfront-payment-main-div{width:unset}
+.payable-emi-main-div{width:unset}
+.stepper-main-div{padding:29px 20px 30px 20px;border-bottom:8px solid #e8e7e6}
+.payment-sum-txt{padding:12px 16px;border-bottom:8px solid #e8e7e6;margin-bottom:0}
+.mobile-btn-div.hide-in-desktop{display:block;padding-bottom:12px}
+.proceed-btn-div{width:100%;height:48px;padding:14px 24px;font-size:16px;margin-top:12px}
+.t-and-c-div{text-align:left;margin-bottom:16px}
+.otp-ribbon-div{margin-top:12px;margin-left:-20px;margin-right:-20px;padding:10px}
+.store-add-main-div{border-bottom:8px solid #e8e7e6;padding:16px}
+.store-add-txt{margin-top:0}
+.loan-pod-checkout-page .strip-info-div .info-text{font-size:12px}
+.loan-pod-checkout-page .strip-info-div{padding:8px 16px}
+.loan-pod-checkout-page .checkbox-with-text .text{font-size:10px;line-height:14px}
+.loan-pod-checkout-page .checkbox-with-text{margin-bottom:20px}
+.otp-ribbon-div span{line-height:12px;display:block}
+.main-loanpod-div .annualise-roi-div span img{margin-left:4px}
+.loan-pod-white-wrap span{font-weight:400;font-size:14px;line-height:18px;letter-spacing:.2px;color:#1a1004}
+}
+@media screen and (max-width:767px){.loan-pod-checkout-page .left-arrow-loan-pod-checkout-page{display:block}
+.main-loanpod-div .left-arrow-loan-pod-insta-buy{display:block}
+.bike-address-txt{width:100%}
+}
+.loader-new{position:fixed;top:0;left:0;bottom:0;right:0;background:#fff;z-index:5}
+.loader-body{position:absolute;top:50%;left:0;right:0;z-index:9;margin:0 auto}
+.loader-text{text-align:center}
+.hold-text{font-family:'Lato';font-style:normal;font-weight:700;font-size:20px;line-height:24px;display:block;align-items:center;text-align:center;letter-spacing:.2px;color:#989899;margin:0 auto}
+.second-text{font-family:'Lato';font-style:normal;font-weight:400;font-size:16px;line-height:20px;display:block;align-items:center;text-align:center;letter-spacing:.2px;color:#989899;margin:0 auto;padding-top:4px}
+.loader{width:54px;height:54px;padding:4.5px;background:#c4c4c4;aspect-ratio:1;border-radius:50%;--_m:conic-gradient(#0000,#000),linear-gradient(#000 0 0) content-box;-webkit-mask:var(--_m);mask:var(--_m);-webkit-mask-composite:source-out;mask-composite:subtract;box-sizing:border-box;animation:load 1s linear infinite;margin:0 auto}
+@keyframes load{to{transform:rotate(1turn)}
+}
+@media screen and (max-width:767px){.loader{width:44px;height:44px;padding:3.67px}
+.loader-new{position:fixed;top:0;left:0;bottom:0;right:0;background:#fff;z-index:98}
+.loader-text{text-align:center}
+.hold-text{font-family:'Lato';font-style:normal;font-weight:700;font-size:16px;line-height:20px;display:block;align-items:center;text-align:center;letter-spacing:.2px;color:#989899;margin:0 auto}
+.second-text{font-family:'Lato';font-style:normal;font-weight:400;font-size:14px;line-height:18px;display:block;align-items:center;text-align:center;letter-spacing:.2px;color:#989899;margin:0 auto;padding-top:4px}
+.loader-body{position:absolute;top:50%;left:0;right:0;z-index:9;margin:0 auto}
+}
+.emi-bx{padding:0}
+.loan-pod-ntb-congratulation-popup-main-container{position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,0.6);z-index:100}
+.loan-pod-loan-approval-cross-icon-main-div{position:absolute;top:0;bottom:0;right:0;left:0;margin:auto;max-width:420px;height:max-content}
+.loan-approval-cross-img-div{text-align:center;padding-bottom:16px}
+.loan-approval-img-main-div{padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid #e4e4e4;text-align:center}
+.loan-approval-img{width:160px;height:160px;margin-bottom:16px}
+.loan-pod-loan-approval-main-div{width:100%;height:max-content;background:#fff;box-shadow:0 0 4px rgba(3,66,99,0.12);border-radius:16px;padding:16px 16px 12px 16px}
+.loan-approval-text-parent-div{background:#fff;border:1px solid #e4e4e4;border-radius:4px;padding:16px;margin-top:16px;margin-bottom:28px}
+.loan-approval-span-text{padding-bottom:12px}
+.loan-approval-span-text:last-child{padding-bottom:0}
+.loan-approval-proceed-btn{padding:14px 24px;background:linear-gradient(90deg,#ff6700 0,#ff8900 100%);border-radius:4px}
+.loan-approval-proceed-btn-text{font-weight:700;font-size:16px;line-height:20px;text-align:center;letter-spacing:.2px;color:#fff}
+.loan-approval-text{font-weight:400;font-size:12px;line-height:16px;letter-spacing:.2px;color:#1a1004}
+.loan-approval-emi-plan-text,.your-loan-approval-text{font-weight:700;font-size:16px;line-height:20px;letter-spacing:.2px;color:#1a1004}
+@media only screen and (max-width:767px){.loan-pod-loan-approval-cross-icon-main-div{top:auto;margin:0}
+.loan-pod-loan-approval-main-div{border-radius:8px 8px 0 0}
+.loan-approval-emi-plan-text{font-size:14px;line-height:18px}
+.loan-approval-text-parent-div{margin-top:8px;margin-bottom:24px}
+.loan-approval-img-main-div{padding-bottom:12px}
+.loan-approval-span-text{padding-bottom:13px}
+}
+.loan-pod-technical-error-main-parent{position:fixed;top:0;left:0;bottom:0;right:0;background:#fff;z-index:5}
+.technical-error-img{width:114px;height:114px;margin-bottom:24px}
+.technical-error-retry-btn{width:394px;height:40px;background:#fff;border:1px solid #fb9b27;border-radius:4px;padding:10px 24px}
+.technical-error-retry-btn-text{font-weight:700;font-size:14px;line-height:20px;text-align:center;letter-spacing:.2px;color:#fb9b27}
+.technical-error-msg-div{text-align:center;margin-bottom:24px}
+.technical-error-msg-div .technical-error-msg-span{display:block;font-weight:400;font-size:16px;line-height:20px;letter-spacing:.2px;color:#1a1004}
+.technical-error-opps-text{font-weight:700;font-size:20px;line-height:24px;letter-spacing:.2px;color:#1a1004;margin-bottom:16px}
+@media only screen and (max-width:767px){.technical-error-retry-btn{width:328px}
+.technical-error-img{width:90px;height:90px}
+.technical-error-opps-text{font-size:16px;line-height:20px;margin-bottom:12px}
+.technical-error-msg-div .technical-error-msg-span{font-weight:400;font-size:14px;line-height:18px}
+.technical-error-retry-btn{margin:0 auto;position:fixed;bottom:12px;left:0;right:0;z-index:98}
+}
+.place-order-otp-popup .otp-popup-div{max-width:100%;width:365px;min-height:max-content;box-shadow:0 0 4px rgba(3,66,99,0.12);background:#fff;border-radius:8px;padding:16px 16px 24px 16px}
+.otp-popup-div .otp-heading{font-weight:700;font-size:14px;line-height:18px;letter-spacing:.2px;color:#1a1004;margin-bottom:8px}
+.otp-popup-div .stright-line-span{display:block;min-height:1px;max-width:328;background:#ededed;border-radius:8px}
+.otp-popup-div .otp-send-text-number{margin-top:15px;margin-bottom:19px}
+.otp-popup-div .otp-send-text-number p.otp-send-text-p{font-weight:400;font-size:14px;line-height:18px;letter-spacing:.2px;color:#1a1004}
+.otp-popup-div .otp-send-text-number p.otp-send-text-p span.mobile-last-4-digit{font-weight:700}
+.otp-popup-div .otp-input-div{gap:16px}
+.otp-popup-div .otp-input-div .otp-input-box{width:40px;height:40px;box-sizing:border-box;background:#fff;border:1px solid #989899;border-radius:8px;text-align:center}
+.otp-popup-div .otp-input-div .otp-input-box.error-border-color{border:1px solid #fa4d56}
+.otp-popup-div .resend-text-timer{font-weight:400;font-size:12px;line-height:16px;letter-spacing:.2px;color:#989899;text-align:right;position:absolute;right:0}
+.otp-popup-div .resend-otp-text{font-weight:700;font-size:12px;line-height:16px;letter-spacing:.2px;color:#0074c9;text-align:right;position:absolute;right:0}
+.otp-popup-div .resent-text-timer-div{margin:8px 0 28px 0;position:relative}
+.otp-popup-div .resent-text-timer-div .otp-wrong-text{color:#fa4d56}
+.otp-popup-div .resent-text-timer-div .last-otp-try-text{font-weight:400;font-size:12px;line-height:16px;letter-spacing:.2px;color:#1a1004;position:absolute;left:0}
+.otp-attempts-text{font-weight:400;font-size:12px;line-height:16px;letter-spacing:.2px;color:#1a1004;position:absolute;left:0}
+.otp-popup-div .otp-btn-div{gap:16px;margin-top:52px}
+.primary-ghost-no-icon-btn{width:50%;height:48px;background:#fff;border-radius:4px;padding:14px 24px;border:1px solid #ff8900;display:flex;justify-content:center;align-items:center;font-weight:700;font-size:16px;line-height:20px;letter-spacing:.2px;color:#ff6700}
+.primary-no-icon-btn{width:156px;height:48px;background:linear-gradient(90deg,#ff6700 0,#ff8900 100%);border-radius:4px;padding:14px 24px;border:0;display:flex;justify-content:center;align-items:center;font-weight:700;font-size:16px;line-height:20px;letter-spacing:.2px;color:#fff}
+.otp-popup-div .popup-info-text{display:flex;flex-direction:column;gap:8px;margin-top:20px}
+.otp-popup-div .popup-info-text .timeOut-text{font-weight:700;font-size:12px;line-height:16px;letter-spacing:.2px;color:#1a1004}
+.otp-popup-div .popup-info-text .termAndConditon-text{font-weight:400;font-size:12px;line-height:16px;letter-spacing:.2px;color:#989899}
+.otp-popup-div .popup-info-text .termAndConditon-text .redirect-tAndC{font-weight:500;color:#0074c9}
+@media screen and (max-width:767px){.place-order-otp-popup .otp-popup-div{border-radius:8px 8px 0 0;padding:16px}
+.otp-popup-div .popup-info-text{gap:16px}
+.otp-popup-div .resend-otp-text{font-weight:400}
+}
+.loan-pod-checkout-popup{width:624px;height:max-content;background:#fff;border-radius:4px;padding:0}
+.loan-pod-proceed-opacity{opacity:.5;pointer-events:none}
+.loan-pod-checkout-page .pageTitle-text h3{font-weight:700;font-size:16px;line-height:20px;letter-spacing:.2px;color:#1a1004}
+.loan-pod-checkout-page .strip-info-div{background:#fff5eb;padding:12px 16px;margin-top:16px}
+.loan-pod-checkout-page .strip-info-div .info-text{font-weight:400;font-size:14px;line-height:16px;letter-spacing:.2px;color:#1a1004}
+.loan-pod-checkout-page .address-card-div{background:#fff;border:1px solid #e4e4e4;border-radius:4px;padding:16px;display:flex;flex-direction:column;gap:4px;margin:16px 0}
+.loan-pod-checkout-page .address-card-div span{font-weight:400;font-size:12px;line-height:16px;letter-spacing:.2px;color:#1a1004}
+.loan-pod-checkout-page .checkbox-with-text{display:flex;gap:11px;margin-bottom:16px}
+.loan-pod-checkout-page .checkbox-with-text .text{font-weight:400;font-size:12px;line-height:16px;letter-spacing:.2px;color:#989899}
+.loan-pod-checkout-page .btn-div .primary-inactive-btn{width:100%;height:40px}
+.loan-pod-cross-icon{margin-bottom:16px;text-align:center}
+.hide-in-desktop{display:none}
+.loan-pod-checkout-details-div{padding:0 24px 24px 24px}
+.loan-pod-checkout-popup .heading-title{padding:18px 24px 18px 24px;border-bottom:1px solid #e4e4e4}
+.loan-pod-checkout-popup .primary-no-icon-btn{font-size:14px}
+.loan-pod-checkout-page .btn-div .primary-inactive-btn{padding:10px 24px}
+@media screen and (max-width:767px){.loan-pod-main-wrapper{width:100%;height:100%}
+.loan-pod-cross-icon{display:none}
+.loan-pod-checkout-popup{width:100%;height:100%;border-radius:0;padding:16px}
+.stepper-main-div.hide-in-desktop{display:block}
+.loan-pod-checkout-page.modal-bg-overlay{overflow:hidden}
+.loan-pod-main-wrapper .stepper-main-div{border-bottom:2px solid #e8e7e6;background:#fff}
+.loan-pod-main-wrapper .stepper-main-div .c-stepper__title{margin-top:10px;margin-right:24px}
+.loan-pod-main-wrapper .stepper-main-div .c-stepper__title.c-stepper__title-mg-r-zero{margin-right:0}
+.strip-info-div.hide-in-desktop{display:block;margin:0}
+.pageTitle-text .strip-info-div{display:none}
+.mobile-div.hide-in-desktop{display:block}
+.hide-mobile{display:none}
+.mobile-div{position:absolute;bottom:0;padding:0 16px 12px}
+.loan-pod-checkout-popup .heading-title{border-bottom:0;padding:0}
+.loan-pod-checkout-details-div{padding:0}
+.loan-pod-checkout-popup .primary-no-icon-btn{font-size:16px}
+.loan-pod-checkout-page .btn-div .primary-inactive-btn{height:48px;padding:14px 24px}
+.loan-pod-checkout-page .checkbox-with-text .text{font-size:10px;line-height:14px}
+.loan-pod-checkout-page .strip-info-div{padding:8px 16px}
+.loan-pod-checkout-page .strip-info-div .info-text{font-size:12px}
+.loan-pod-checkout-page .checkbox-with-text{margin-bottom:20px}
+}
+.add-error-pop-wrap-main-div{width:100%;height:100%;position:fixed;top:0;left:0;z-index:9;background:#1a100447}
+.add-white-pop-wrap-div{position:relative;display:flex;align-items:center;justify-content:center;height:100%;flex-direction:column-reverse}
+.add-white-popup-main-div{margin:0 auto;width:360px;height:218px;background:#fff;border-radius:4px}
+.up-white-box-div{display:flex;align-items:center;padding:18px 16px 18px 24px;border-bottom:1px solid #e4e4e4}
+.up-white-box-div span{font-weight:700;font-size:16px;line-height:20px;letter-spacing:.2px;color:#1a1004}
+.main-body-white-div{padding:19px 16px 16px 16px}
+.error-img-div{text-align:center;margin-bottom:16px}
+.add-cross-img-div{text-align:center;margin:0 auto;cursor:pointer;margin-bottom:16px}
+.error-msg-div span{font-weight:400;font-size:14px;line-height:18px;text-align:center;letter-spacing:.2px;color:#1a1004}
+.up-white-box-div img{display:none}
+@media screen and (max-width:768px){.up-white-box-div img{display:flex;margin-right:8px;cursor:pointer}
+.add-cross-img-div{display:none}
+.up-white-box-div{padding:14px 17px 14px 16px}
+.add-white-pop-wrap-div{justify-content:center;align-items:flex-end;flex-direction:unset}
+.main-body-white-div{padding:16px}
+.add-white-popup-main-div{height:213px}
+}

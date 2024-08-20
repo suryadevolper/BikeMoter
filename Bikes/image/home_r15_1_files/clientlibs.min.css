@@ -1,0 +1,29 @@
+.promoCode-banner-with-timer{position:absolute;top:78px}
+.promoCode-banner-offer-timer{position:relative}
+.offer-div{display:flex;align-items:center;justify-content:center;height:50px;gap:12px}
+.promocode-background-img{width:100%;position:absolute;z-index:-1;height:50px}
+.offer-text-div p{font-size:16px;line-height:20px;letter-spacing:.2px}
+.coupen-code-text-div{color:#900a38;font-size:10px;line-height:14px;letter-spacing:.2px;text-align:center;padding-left:12px;padding-right:12px}
+.coupon-code-txt{font-size:14px}
+.coupenCode-background-img{position:absolute;z-index:-1;top:6px}
+.timer-main-div{display:flex;height:26px;align-items:center;margin-left:38px;gap:8px;position:absolute;top:25%;right:2%}
+.timer-main-div .timer-txt{font-size:12px;line-height:16px;text-align:right;letter-spacing:.2px}
+.timer-counter-div{background:rgba(255,255,255,0.4);padding:4px;gap:5px;height:26px}
+.timer-counter-div p{font-size:14px;line-height:18px}
+.timer-counter-div img{width:16px;height:16px}
+.picture img{width:100%}
+@media screen and (max-width:991px){.offer-div{height:60px;gap:20px}
+.offer-text-div p{font-size:14px}
+.coupen-code-text-div{font-size:10px;width:112px}
+.coupon-code-txt{font-size:16px;line-height:20px}
+.coupenCode-background-img{right:7px}
+.timer-main-div{height:20px;margin:0;gap:5px;left:4%;width:100%;top:50%}
+.timer-main-div .timer-txt{text-align:left}
+.timer-main-div .timer-txt p{font-size:10px}
+.timer-counter-div{height:20px;gap:4}
+.timer-counter-div p{font-size:10px;line-height:12px}
+.timer-counter-div img{width:12px;height:12px}
+.promocode-background-img.hide-in-desktop{height:60px}
+.promoCode-banner-with-timer{top:130px}
+.nav-scroll .nav-class{top:52px}
+}

@@ -1,0 +1,1 @@
+function showPdpOnloadSkeleton(a){a?$(".pdp-onload-skeleton-loader").removeClass("dsp-none"):($(".pdp-onload-skeleton-loader").addClass("dsp-none"),$(".inner-product-info").removeClass("dsp-none"))};

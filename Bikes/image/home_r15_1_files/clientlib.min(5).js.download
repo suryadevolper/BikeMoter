@@ -1,0 +1,1 @@
+window.addEventListener("DOMContentLoaded",function(){$("#view-step").click(function(a){$(".howto-buy-popup-wrap").removeClass("i-dsp-none");$("body").addClass("overflow-hiddd")});$(".how-to-buy-cross").click(function(a){$(".howto-buy-popup-wrap").addClass("i-dsp-none");$("body").removeClass("overflow-hiddd")});$(".dot-div").last().addClass("dsp-none")});

@@ -1,0 +1,41 @@
+.claim-preapproved-limit-toaster{position:fixed;bottom:20px;left:55px;padding:8px 12px;border-radius:4px;background-color:#000;max-width:420px;z-index:9}
+.claim-toaster-inner{display:flex;align-items:center;justify-content:center}
+.claim-toaster-img{margin-right:8px;height:45px;width:35px}
+.claim-preapproved-limit-text{font-size:14px;font-weight:bold;line-height:1.29;color:#fff}
+.claim-get-now{padding:0 8px;border-right:1px solid #ffffff4f}
+.claim-get-now a{display:block;font-size:12px;font-weight:bold;color:#fb9b27;border:1px solid #fb9b27;border-radius:6px;padding:8px 10px;min-width:71px;text-align:center;cursor:pointer}
+.close-claim-toaster{cursor:pointer;width:20px;height:20px;margin-left:6px}
+@media(max-width:991px){.claim-preapproved-limit-toaster{left:0;right:0;margin:0 10px;padding:18px 9px;border-radius:10px}
+.claim-toaster-img{margin-right:6px;height:43px;width:33px}
+.claim-preapproved-limit-text{font-size:13px;font-weight:bold;line-height:1.46;text-align:justify}
+.claim-get-now a{font-size:16px;min-width:86px}
+.close-claim-toaster{width:22px;height:22px;margin-left:4px}
+}
+.claim-preapproved-limit-nudge{padding:11px 20px;border-radius:6px;box-shadow:0 2px 0 0 #5f8d20;background-color:#daf6e4;width:calc(100% - 35px);margin:13px 0}
+.claim-nudge-inner{display:flex;align-items:center}
+.claim-nudge-img{margin-right:16px}
+.claim-preapproved-limit-ntext{font-size:16px;font-weight:bold;line-height:1.19;color:#005f20;max-width:290px}
+.claim-n-get-now a{display:block;font-size:14px;font-weight:bold;margin-left:18px;color:#005f20;padding:7px 17px;border-radius:6px;border:solid 1px #005f20;background-color:#daf6e4;cursor:pointer;text-align:center}
+.modal-overlay{background:rgba(0,0,0,0.5);position:fixed;z-index:999;height:100%;width:100%;top:0;left:0;overflow:auto}
+.modal-inner{position:relative;display:flex;align-items:center;justify-content:center;height:100%}
+.modal-content{position:relative}
+.close-popup{position:absolute;top:-42px;left:0;right:0;margin:0 auto;cursor:pointer}
+.close-popup.white-bgc{display:none}
+.claim-limit-popup-div{background-color:#fff;border:solid 1px #707070;padding:20px 25px;border-radius:5px;text-align:center}
+.claim-limit-img{height:82px;margin-bottom:6px}
+.claim-congrats-text{text-align:center}
+.congrats-text-bold{font-size:20px;font-weight:600;color:#000;margin:6px}
+.congrats-text-normal{font-size:14px;font-weight:500;color:#070707}
+.get-emi-card-btn-1{display:block;padding:8px 25px;border-radius:3px;background-color:#fb9b27;font-size:14px;font-weight:bold;text-align:center;color:#fff;width:max-content;margin:0 auto;cursor:pointer}
+.congrats-text-normal.apply-for-card{margin:12px auto 16px;line-height:18px;max-width:300px}
+@media(max-width:991px){.modal-inner{align-items:flex-end}
+.modal-content{width:100%}
+.claim-limit-popup-div{border:0;border-radius:0}
+.close-popup.grey-bgc{display:none}
+.close-popup.white-bgc{display:block;top:-48px}
+}
+@media(max-width:991px){.claim-preapproved-limit-nudge{width:auto;padding:10px 10px;margin:10px 8px}
+.claim-preapproved-limit-ntext{font-size:12px;line-height:1.25}
+.claim-n-get-now a{font-size:11px;padding:7px 10px;margin-left:12px;min-width:67px}
+.claim-nudge-img{margin-right:8px}
+}

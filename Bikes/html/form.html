@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/strap.min.css">
+</head>
+<style>
+    body{
+        background-image: url('./Warm-hued-sky-embraces-dirt-biker-conquering-a-hill-mirroring-the-essence-of-freedom-in-a-sunset-wallpaper.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%; 
+    }
+    #total{
+        border-radius: 35px;
+        backdrop-filter: blur(10px); 
+        box-shadow: 0px 0px 20px 4px black ;
+    }
+    #otp{
+        text-align: center;
+        border: 1px solid #000;
+        backdrop-filter: blur(10px);
+        box-shadow: 0px 0px 20px 4px black ;
+        height: 500px;
+        width: 500px;
+        border-radius: 35px;
+    }
+    
+</style> 
+<body>
+    <div class="container d-flex justify-content-center mt-5">
+        
+        
+
+        <!-- Registration -->
+        
+        <div class="col- p-5" id="total">
+            <div>
+                <h1 class="text-white">Registration Form</h1>
+            </div>
+            <div class="mt-3 form-floating mt-5">
+                <input type="email" class="form-control" placeholder="" id="mail">
+                <label for="" class="form-floating">Email Address</label>
+            </div>
+            <div class="form-floating mt-4">
+                <input type="password" class="form-control" placeholder=""  id="pass">
+                <label for="" class="form-floating">Password</label>
+            </div>
+
+            <div class="btn d-flex justify-content-center mt-4">
+                <a href="" class="btn btn-outline-primary w-100" type="btn" onclick="btn(event)">Submit</a>
+            </div>
+            <div class="form-text d-flex justify-content-center">(or)</div>
+            <div class="btn d-flex justify-content-center mt-">
+                <a href="" id="sbtn" class="btn btn-outline-primary w-100" type="btn">SignUp</a>
+            </div>
+            <div>
+                <p id="val" style="color: rgb(247, 247, 247); text-align: center;"></p>
+            </div>
+        </div>
+
+        
+        <!-- onen time password -->
+
+
+        <div id="otp" style="display: none; color:white">
+            <h2>Enter Your OTP</h2>
+            <br>
+            <input type="text" class="form-" name="" id="otpInput">
+            <button onclick="otn(event)">Submit</button>
+
+            <p id="para" style="font-size: 2rem;"></p>
+        </div>
+    </div>
+</body>
+<script src="../bootstrap/strap.min.js"></script>
+</html>
+
+<script>
+    function btn(event){
+        event.preventDefault();
+        
+
+
+        let formMail = document.getElementById("mail").value;
+        let formPass = document.getElementById("pass").value;
+        // console.log(formMail);
+
+        if(formMail != "" && formPass != ""){
+            
+            // let ttl = document.getElementById("total").style.display = "none";
+
+            let ttl = document.getElementById("total").setAttribute("style", "display:none;")
+            let otp = document.getElementById("otp").style.display = "block";
+
+            let sub = Math.floor(Math.random()*10000000);
+          localStorage.setItem("ans",sub)
+
+          alert("Get and Enter the OTP 🔑")
+        
+        }  
+        else{
+            document.getElementById("val").innerHTML =  "Please fill the UserName & Password 🤧";
+        }
+        
+    }
+
+    function otn(event) {
+        event.preventDefault();
+
+        let inpu = document.getElementById("otpInput").value;
+        let loc = localStorage.getItem("ans");
+
+        if(inpu == loc) {
+            confirm("Successfully completed🎉🎉");
+            window.location.href = 'http://127.0.0.1:5502/html/card.html';
+                       
+        }
+        else{
+            alert("Please check OTP🤷🏻");
+        }
+        
+    }
+</script>
+

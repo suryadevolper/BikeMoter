@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <g data-name="x-circle (1)" transform="translate(-2.6 -2.6)">
+        <circle data-name="Ellipse 1124" cx="16" cy="16" r="16" transform="translate(2.6 2.6)" style="fill:#fff"/>
+        <path data-name="Line 639" transform="translate(13.6 13.6)" style="fill:none;stroke:silver;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px" d="M10 0 0 10"/>
+        <path data-name="Line 640" transform="translate(13.6 13.6)" style="fill:none;stroke:silver;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px" d="m0 0 10 10"/>
+    </g>
+</svg>

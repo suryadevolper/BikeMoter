@@ -1,0 +1,6 @@
+.go-to-top-comp{right:24px;bottom:24px;position:fixed;box-shadow:0 0 31px 0 #0000001F;background:#fff;border-radius:8px;z-index:99;cursor:pointer}
+.go-to-top-comp-inner{padding:8px;display:flex;gap:8px}
+.go-to-top-comp-inner-left{font-size:12px;font-weight:700;line-height:16px;letter-spacing:.20000000298023224px;text-align:center;padding:4px 0;color:#0074c9}
+.go-top-top-img{width:24px;height:24px}
+@media screen and (max-width:991px){.go-to-top-comp{bottom:80px;right:16px}
+}

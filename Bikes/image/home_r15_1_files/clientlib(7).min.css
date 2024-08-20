@@ -1,0 +1,19 @@
+.why-bajj-content{display:flex;align-items:center}
+.why-bajj-content-txt{font-size:12px;font-weight:bold;color:#070707;margin-left:8px;display:block}
+.why-bjj-wrap{display:flex}
+.why-bjj-card{display:flex;flex-direction:column;text-align:center;align-items:center;gap:8px}
+.bjj-wrap{font-size:14px;text-align:center;color:#000}
+.bjj-buy-img{width:40px}
+.why-bjj-wrapper-card{padding:24px 26px 24px 26px}
+.why-bjj-wrap{display:flex;justify-content:space-between;align-self:center;text-align:center}
+.bjj-parent-wrap{margin:30px 50px 29px 66px}
+.bjj-wrap-content{width:6px;height:6px;background-color:#fdac4e;border-radius:50%}
+.why-bjj-main{margin-top:24px}
+@media only screen and (max-width:767px){.why-bjj-main{margin-top:16px;margin-bottom:16px}
+.why-bajj-content-txt{font-size:12px}
+.bjj-buy-img{width:32px;height:32px}
+.bjj-wrap{font-size:10px;margin-right:8px}
+.why-bjj-wrapper-card{padding:16px 8px 0 8px}
+.bjj-parent-wrap{margin:20px 0 0 3px}
+.bjj-wrap-content{width:5px;height:5px}
+}

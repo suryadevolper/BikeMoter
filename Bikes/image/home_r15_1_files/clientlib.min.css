@@ -1,0 +1,113 @@
+.header-tool-tip-div{margin-left:5px;display:inline-block;align-items:center;cursor:pointer;position:relative}
+.emi-network-text-div{padding-bottom:16px;border-bottom:1px solid #e8e7e6}
+.emi-net-title{display:block;font-size:15px;font-weight:bold;text-align:left;margin-bottom:8px;color:#000}
+.emi-net-para{font-size:13px;line-height:1.38;letter-spacing:.21px;text-align:left;color:#1a1004}
+.card-detail-div:first-child{width:50%;padding:16px 0 18px 0}
+.card-detail-div:last-child{width:30%;padding:16px 0 18px 0}
+.card-details-main-div{display:flex;justify-content:space-between}
+.pass-txt{display:flex}
+.detail-title{font-size:11px;font-weight:600;line-height:1.36;letter-spacing:.26px;text-align:left;color:#1a1004;opacity:.8}
+.credit-blue-sect{background-color:#0074c9;border-top-left-radius:8px;border-top-right-radius:8px;padding:12px 16px;display:flex;align-items:center}
+.total-l-txt{opacity:.8;font-size:13px;line-height:1.38;letter-spacing:.21px;text-align:left;color:#fff;margin-right:8px}
+.total-l-num{font-size:22px;font-weight:bold;line-height:1.36;letter-spacing:.13px;text-align:left;color:#fff}
+.credit-white-sect{background-color:#e5f1fa;border-bottom-left-radius:8px;border-bottom-right-radius:8px;padding:13px 34px;display:flex;justify-content:space-between}
+.loan-limit-div:last-child{border-left:1px solid #c8c5c3;padding-left:26px;width:54%}
+.limit-txt{opacity:.8;font-size:11px;font-weight:600;line-height:1.45;letter-spacing:.26px;text-align:left;color:#1a1004}
+.limit-num{font-weight:bold;line-height:1.33;letter-spacing:.14px;text-align:left;color:#1a1004}
+.loan-limit-div:last-child::before{content:'';width:1px;height:39px;background-color:#c8c5c3}
+.card-detail-div .card-title-and-txt-div:first-child{margin-bottom:16px}
+.detail-ans{font-size:13px;font-weight:bold;line-height:1.38;letter-spacing:.1px;text-align:left;color:#000}
+.star-protect{margin-right:9px;font-size:22px}
+.header-tool-tip-div .tooltiptext{width:361px;box-shadow:0 4px 16px 0 rgba(0,0,0,0.16);background-color:#fff;border-radius:8px;padding:18px 16px;position:absolute;z-index:1;top:26px;right:-31px}
+.header-tool-tip-div .tooltiptext::after{content:"";position:absolute;bottom:100%;right:32px;border-width:5px;border-style:solid;border-color:transparent transparent #fff transparent}
+.feature-acc-aggregator-hover-box .feature-name-acc-aggregator{font-size:14px;font-weight:700;line-height:18px;letter-spacing:.2px;text-align:center;white-space:nowrap;color:#1a1004}
+.feature-acc-aggregator-hover-box .acc-aggregator-tooltip-img{width:16px;height:16px;margin-left:2px;position:relative;top:3px}
+.feature-acc-aggregator-hover-box .acc-agg-increase-tab{background-color:#ff6700;border-radius:8px;letter-spacing:.04em;font-size:10px;margin-left:2px;line-height:128%;white-space:nowrap;width:82px;height:18px;font-weight:700;position:relative;bottom:2px;padding-left:8px;color:#fff;display:inline-block;padding-top:2px}
+.feature-acc-aggregator-limit-box{margin-top:4px}
+.feature-acc-aggregator-limit-box .feature-acc-aggregator-limit{font-size:12px;line-height:16px;font-weight:400;letter-spacing:.2px;color:#585653}
+.acc-aggregator-tooltip-hover-content{text-align:center;border-radius:4px;padding:16px;position:absolute;z-index:1;width:360px;box-shadow:0 2px 14px 0 rgba(3,66,99,0.1);background:#fff;top:38px;left:-25px}
+.acc-aggregator-tooltip-hover-content::after{content:"";position:absolute;bottom:93%;right:138px;border-width:8px;border-style:solid;border-color:transparent transparent #fff transparent;transform:rotate(-45deg);box-shadow:.5px -1px 2px #e5e3e3}
+.acc-aggregator-tooltip-hover-para{font-size:14px;font-weight:400;line-height:18px;color:#1a1004;text-align:left}
+.aa-success{width:100%;height:100%;position:fixed;background-color:rgba(0,0,0,0.5);top:0;overflow:hidden}
+.account-aggregator-success{position:fixed;left:50%;margin-left:-150px;height:311px;top:205px}
+.account-aggregator-success-close-icon{text-align:center;margin-bottom:16px}
+.account-aggregator-success-close-icon img{width:32px;height:32px}
+.aa-success-popup-content{background:#fff;border-radius:8px;padding:24px}
+.aa-success-img{text-align:center;margin-bottom:24px}
+.aa-success-img img{width:58px;height:58x}
+.aa-success-content{margin-bottom:24px;height:64px}
+.aa-success-main-text{height:20px;margin-bottom:8px;line-height:20px;text-align:center;letter-spacing:.2px}
+.aa-success-main-text span{font-size:16px;font-weight:700}
+.aa-success-sub-text{text-align:center;font-size:14px;font-weight:400;letter-spacing:.2px;line-height:18px}
+.aa-success-button{text-align:center;height:40px;padding:10px 24px 10px 24px;border-radius:4px;border:1px #ff6700 solid;margin-top:24px}
+.aa-success-button-text{text-align:center;color:#ff6700;font-size:14px;font-weight:700;line-height:20px;letter-spacing:.2px}
+@media only screen and (max-width:768px){.account-aggregator-success{bottom:0;top:unset;right:0;margin:0 auto;left:unset;height:fit-content;margin-top:0;padding:0;width:100%}
+.aa-success-content{margin-bottom:0}
+.aa-success-button{margin-top:16px}
+.aa-success-img{margin-bottom:10px}
+.aa-success-main-text span{margin-bottom:8px;font-size:14px;font-weight:700;line-height:18px;letter-spacing:.2px;text-align:center}
+.aa-success-sub-text{font-size:12px}
+.aa-success-popup-content{background:#fff;border-radius:8px 8px 0 0;padding:16px}
+}
+.acc-failure{background-color:rgba(0,0,0,0.5);width:100%;height:100%;position:fixed;top:0;overflow:hidden}
+.account-aggregator-failure{position:fixed;width:380px;left:50%;margin-left:-150px;height:311px;top:205px}
+.account-aggregator-failure-close-icon{text-align:center;margin-bottom:16px}
+.account-aggregator-failure-close-icon img{width:32px;height:32px}
+.acc-failure-popup-content{background:#FFF;border-radius:8px;height:263px}
+.acc-failure-img{text-align:center;margin-bottom:24px}
+.acc-failure-img img{width:68px;height:63px;margin-top:24px}
+.acc-failure-content{margin:0 24px 24px;width:auto;height:64px}
+.acc-failure-main-text{margin-bottom:8px;text-align:center}
+.acc-failure-main-text span{font-size:16px;font-weight:700;line-height:20px;letter-spacing:.2px}
+.acc-failure-sub-text{text-align:center;color:#585653}
+.acc-failure-sub-text span{font-size:14px;font-weight:400;line-height:18px;letter-spacing:.2px}
+.acc-failure-button{width:auto;height:40px;padding:10px 24px;border-radius:4px;border:1px #ff6700 solid;margin:24px}
+.acc-failure-button-text{text-align:center;color:#ff6700}
+@media screen and (max-width:768px){.account-aggregator-success{bottom:0;top:unset;right:0;margin:0 auto;left:unset;height:fit-content;margin-top:0;padding:0;width:100%}
+.aa-success-img{margin-bottom:10px}
+.aa-success-main-text span{margin-bottom:8px;font-size:14px;font-weight:700;line-height:18px;letter-spacing:.2px;text-align:center}
+.aa-success-sub-text{font-size:12px}
+.account-aggregator-failure{bottom:0;top:unset;right:0;margin:0 auto;left:unset;height:fit-content;margin-top:0;padding:0;width:100%}
+.acc-failure-sub-text span{font-size:12px;line-height:16px}
+.acc-failure-main-text span{font-size:14px;line-height:18px}
+.acc-failure-button{margin:0 16px 12px}
+.acc-failure-popup-content{border-radius:8px 8px 0 0}
+.acc-failure-content{margin:16px}
+.acc-failure-popup-content{height:237px}
+.acc-failure-img{margin-bottom:0}
+.pd-head-mob-tooltip-pop{background:rgba(0,0,0,0.6);width:100%;height:100%;z-index:100;position:fixed;top:0;left:0;bottom:0;right:0}
+.pd-cancel-hread-tooltip{width:32px;height:32px;margin:0 auto;position:absolute;left:0;right:0;top:-49px}
+.header-tool-tip-div .tooltiptext{width:unset;box-shadow:0 4px 16px 0 rgb(0 0 0 / 16%);background-color:#fff;border-radius:unset;padding:unset;position:absolute;z-index:1;top:unset;right:0;left:0;bottom:0}
+.credit-limit-details{padding:0 16px 16px}
+.card-detail-div:last-child{padding:unset}
+.emi-network-text-div{padding-bottom:0;border-bottom:0}
+.card-detail-div:first-child{padding:unset}
+.emi-net-title{border-bottom:1px solid #e8e7e6;padding:16px}
+.emi-net-para-div{padding:unset;border-bottom:0}
+.card-details-main-div{margin:16px}
+.emi-network-text-div{padding-bottom:0;border-bottom:0}
+.emi-net-para{margin:16px;border-bottom:1px solid #e8e7e6;padding-bottom:16px}
+.header-tool-tip-div .tooltiptext::after{display:none}
+}
+.acBuyingGuide-section{height:100vh;background-color:#f5f5f5}
+.breadCrumb-buyingGuide{height:56px;background:#fff;align-items:center;gap:16px;padding:16px;margin:8px 0 8px}
+.breadCrumb-buyingGuide img{width:24px;height:24px}
+.breadCrumb-buyingGuide .breadCrumb-text span{font-weight:700;font-size:16px;line-height:20px;display:flex;align-items:center;letter-spacing:.2px;color:#1a1004}
+.acBuyingGuide-card{height:99px;background-color:#fff;box-shadow:0 0 4px rgba(3,66,99,0.12);border-radius:8px;margin:0 auto;position:relative;margin-bottom:8px;margin-left:8px;margin-right:8px}
+.acBuyingGuide-card .backgroud-img{width:100%;height:99px;border-radius:8px}
+.product-img-div{position:absolute;top:30px;width:87px;margin-left:28px;height:69px;display:flex;align-items:center;gap:14px}
+.product-img-div.ref{width:92.02px;height:87.43px;top:13px}
+.product-img-div img{width:120px;height:120px;object-fit:contain}
+.product-text{position:absolute;top:50%;text-align:center;left:40%}
+.product-text p{font-weight:600;font-size:14px;line-height:17px;color:#000}
+.insta-emi-img{width:64px;height:64px}
+.insta-emi-cntainer{display:flex;gap:16px;padding:12px 16px;align-items:center;background:#fff7f2;border-radius:8px;margin:12px 0 0 0}
+.insta-emi-txt-cnt{display:flex;flex-direction:column;gap:16px}
+.insta-emi-head{font-weight:400;font-size:12px;line-height:16px;letter-spacing:.2px;color:#1a1004}
+.insta-emi-btn{padding:8px 24px;border:1px solid #ff6700;color:#ff6700 !important;font-weight:700;font-size:12px;line-height:16px;letter-spacing:.2px;text-align:center;border-radius:4px}
+.dsp-none{display:none}
+@media screen and (max-width:991px){.insta-emi-cntainer{margin:12px}
+.acBuyingGuide-section{padding-top:8px}
+.breadCrumb-buyingGuide{margin:0 0 8px}
+.product-img-div img{width:90px;height:90px}
+}

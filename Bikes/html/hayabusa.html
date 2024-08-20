@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAYABUSA</title>
+    <link rel="stylesheet" href="../bootstrap/strap.min.css">
+
+</head>
+<style>
+  .p_g{
+    color: darkblue;
+  }
+  li a::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    margin: auto;
+    background-color: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+  li a:hover:after{
+    width: 100%;
+    background: darkblue;
+  }
+  
+</style>
+<body>
+    <div class="container-fluid">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../image/carousal/suzuki-hayabusa-25-anniversary-2.jpg" class="d-block img img-fluid" id="a" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../image/carousal/suzuki-hayabusa-.jpg" class="d-block w-100  img img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../image/suzuki-hayabusa-2022-dark-background-5k-3840x2160-4386.jpg" class="d-block w-100  img img-fluid" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="mt-5 name_color">
+          <p class="h1 d-flex justify-content-center p_g">Hayabusa</p>
+      </div>
+      <div class="row row align-items-end border border-2">
+        <div class="col d-flex justify-content-center">
+          <nav class="position-relative bottom-0 end-0">
+            <ul class="list-inline">
+              <li class="list-inline-item p-5"><a class="text-decoration-none" href="https://www.bikewale.com/suzuki-bikes/hayabusa/#:~:text=The%20Suzuki%20Hayabusa%20is%20powered,tank%20capacity%20of%2020%20liters.">Overview</a> </li>
+              <li class="list-inline-item p-5"><a class="text-decoration-none" href="https://www.bikewale.com/suzuki-bikes/hayabusa/#:~:text=The%20Suzuki%20Hayabusa%20is%20powered,tank%20capacity%20of%2020%20liters.">Price</a> </li>
+              <li class="list-inline-item p-5"><a class="text-decoration-none" href="https://www.bikewale.com/suzuki-bikes/hayabusa/#:~:text=The%20Suzuki%20Hayabusa%20is%20powered,tank%20capacity%20of%2020%20liters.">Expert Option</a> </li>
+              <li class="list-inline-item p-5"><a class="text-decoration-none" href="https://www.bikewale.com/suzuki-bikes/hayabusa/#:~:text=The%20Suzuki%20Hayabusa%20is%20powered,tank%20capacity%20of%2020%20liters.">Colours</a> </li>
+              <li class="list-inline-item p-5"><a class="text-decoration-none" href="https://www.bikewale.com/suzuki-bikes/hayabusa/#:~:text=The%20Suzuki%20Hayabusa%20is%20powered,tank%20capacity%20of%2020%20liters.">Specs & Feature</a> </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+</body>
+<script src="../bootstrap/strap.min.js"></script>
+</html>

@@ -1,0 +1,12 @@
+.EmiCard-nudge-container{position:fixed;min-width:278px;border-radius:4px;background:#1a1004;right:24px;padding:12px 16px;display:flex;flex-direction:column;gap:8px;z-index:1000;top:116px}
+.EmiCard-nudge-imgtxt{display:flex;gap:16px}
+.EmiCard-nudge-img img{width:56px;height:56px}
+.EmiCard-nudge-txt-cnt{color:#FFF;width:192px}
+.EmiCard-nudge-head{font-size:12px;font-weight:700;line-height:16px;letter-spacing:.2px;margin-bottom:4px}
+.EmiCard-nudge-txt,.EmiCard-nudge-subtxt{font-size:10px;font-weight:400;line-height:16px;letter-spacing:.2px;list-style-type:disc}
+.EmiCard-nudge-btn{display:flex;padding:8px 24px;justify-content:center;align-items:center;gap:10px;border-radius:4px;border:1px solid var(--Gradients-Orange,#ff6700);color:var(--Orange-Sunset,#ff6700);text-align:center;font-size:12px;font-style:normal;font-weight:700;line-height:16px;letter-spacing:.2px;cursor:pointer;text-decoration:none}
+.EmiCard-nudge-btn:hover{color:var(--Orange-Sunset,#ff6700)}
+.EmiCard-cross-btn img{width:16px;height:16px;cursor:pointer}
+.EmiCard-nudge-txt-cnt ul{padding-left:16px}
+@media only screen and (max-width:768px){.EmiCard-nudge-container{top:auto;bottom:16px;right:18px}
+}

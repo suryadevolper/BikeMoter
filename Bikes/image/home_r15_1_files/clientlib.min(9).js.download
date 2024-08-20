@@ -1,0 +1,1 @@
+function addEventSimilarProduct(){$(".tdslide-prod-titl").each(function(){var a=$(this).text();30<a.length&&(a=a.substring(0,30)+"...",$(this).text(a))})};

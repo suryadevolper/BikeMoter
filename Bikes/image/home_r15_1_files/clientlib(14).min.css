@@ -1,0 +1,59 @@
+.hello-popup-black-container{position:fixed;top:100px;right:15px;width:448px;max-height:100%;border-radius:4px;background-color:rgba(0,0,0,0.87);z-index:100}
+.hello-popup-content-div{display:flex;align-items:center;padding:12px 16px;max-height:100%}
+.black-hand-img-div{width:42px;height:42px;margin-right:16px}
+.hello-login-txt{max-width:225px;font-size:14px;font-weight:600;line-height:16px;text-align:left;letter-spacing:.2px;color:#fff;margin-right:16px}
+.popup-login-btn{cursor:pointer;width:68px;height:32px;padding:5px 16px;background-color:transparent;color:#fb9b27;font-size:12px;font-weight:bold;line-height:17px;text-align:center;border:solid 1px #fb9b27;border-radius:5px;margin-right:12px}
+.cross-icon-img{cursor:pointer;width:25px;height:25px;margin-left:6px}
+@media only screen and (max-width:767px){.hello-popup-black-container{width:100%;max-width:380px;max-height:100%;border:1px solid #1c1c1c;top:unset;margin:0 auto;bottom:19px;left:0;right:0;z-index:100}
+.black-hand-img-div{width:30px;height:30px}
+.hello-login-txt{font-size:11px;font-weight:600;line-height:16px;text-align:left;letter-spacing:.2px;color:#fff;margin-right:16px}
+.cross-icon-div-img::before{align-items:center;content:"";border-left:1px solid #767676;background-color:#767676;font-size:24px}
+}
+@media only screen and (max-width:991px) and (min-width:768px){.hello-popup-black-container{top:135px}
+}
+@media only screen and (max-width:320px){.hello-popup-black-container{max-width:300px}
+}
+@media only screen and (max-width:367px) and (min-width:321px){.hello-popup-black-container{max-width:321px}
+}
+@media only screen and (max-width:410px) and (min-width:369px){.hello-popup-black-container{max-width:335px}
+}
+.hello-popup-green-container{max-width:1063px;margin:0 auto;height:81px;padding:25px 25px;border-radius:4px;box-shadow:0 2px 0 0 #5f8d20;background-color:#daf6e4}
+.green-hand-img{width:42px;height:42px;margin-right:20px}
+.green-hand-img-div{display:flex;align-items:center;justify-content:space-between}
+.green-login-txt{font-size:16px;font-weight:bold;line-height:1.19;text-align:left;color:#005f20;margin-right:38px}
+.green-login-btn{cursor:pointer;padding:5px 21px;width:88px;height:30px;border-radius:4px;border:solid 1px #005f20;background-color:transparent;color:#005f20}
+@media only screen and (max-width:767px){.hello-popup-green-container{width:90%;min-width:375px;height:70px;top:unset;margin:0 auto;bottom:130px;left:0;right:0;padding:14px 10px}
+.green-hand-img{width:42px;height:42px}
+.green-login-txt{font-size:14px}
+}
+@media only screen and (max-width:368px){.hello-popup-green-container{min-width:324px}
+}
+@media only screen and (max-width:411px) and (min-width:369px){.hello-popup-green-container{min-width:350px}
+}
+@media only screen and (max-width:320px){.hello-popup-green-container{min-width:300px}
+}
+.wave{animation-name:wave-animation;animation-duration:2.5s;animation-iteration-count:infinite;transform-origin:70% 70%;display:inline-block}
+@keyframes wave-animation{0{transform:rotate(0)}
+10%{transform:rotate(14deg)}
+20%{transform:rotate(-8deg)}
+30%{transform:rotate(14deg)}
+40%{transform:rotate(-4deg)}
+50%{transform:rotate(10deg)}
+60%{transform:rotate(0)}
+100%{transform:rotate(0)}
+}
+.card-section-div-wrapper .hello-popup-green-container{width:100%;margin:unset;margin-bottom:8px;max-width:unset;padding:15px 19px}
+.grid-view-master-wrapper .card-section-div-wrapper .hello-popup-green-container{margin-right:21px}
+@media only screen and (min-width:320px) and (max-width:767px){.grid-view-master-wrapper .card-section-div-wrapper .hello-popup-green-container{margin-right:7px}
+.card-section-div-wrapper .green-login-txt{margin-right:0}
+.grid-view-master-wrapper .card-section-div-wrapper .green-login-txt{margin-right:0}
+}
+.toaster-added-wrapper-c{position:relative}
+.toaster-popup-div{position:fixed;min-width:278px;border-radius:4px;background-color:rgba(0,0,0,0.87);bottom:30px;left:36%;padding:19px;display:flex;z-index:1000}
+.toaster-popup-div .tick-mark img{width:20px;height:20px}
+.toaster-notify-text{font-size:14px;line-height:1.38;letter-spacing:.1px;color:#fff;text-align:left}
+.notify-first-text{font-size:14px;font-weight:bold;line-height:1.07;letter-spacing:.14px;text-align:left;color:#fff}
+.notify-textual-div{display:grid;margin-left:16px}
+.toaster-visibility{visibility:hidden}
+@media screen and (max-width:767px){.toaster-popup-div{left:50%;max-width:328px;padding:12px 16px;transform:translateX(-50%)}
+}
